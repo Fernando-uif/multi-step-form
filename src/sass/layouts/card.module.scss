@@ -1,0 +1,11 @@
+@import "../abstract/variables.scss";
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+    
+  }
+}
